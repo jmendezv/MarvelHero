@@ -23,7 +23,7 @@ public class HeroViewModel extends ViewModel {
     private Call<List<Hero>> heroCall;
 
     @Inject
-    HeroViewModel() {
+    public HeroViewModel() {
         fetchHero();
     }
 
