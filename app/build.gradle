@@ -27,6 +27,7 @@ def moshiVersion = '1.5.0'
 def daggerVersion = '2.13'
 def lifecycleVersion = '1.1.1'
 def moshiLazyAdaptersVersion = '2.0'
+def butterKnifeVersion = '8.8.1'
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
@@ -48,6 +49,13 @@ dependencies {
     // Dagger to inject viewmodels. It will provide our retrofit and repo service dependencies
     implementation "com.google.dagger:dagger:$daggerVersion"
     annotationProcessor "com.google.dagger:dagger-compiler:$daggerVersion"
+
+    // Butterknife to make binding in our fragments and view holders easier
+    implementation "com.jakewharton:butterknife:$butterKnifeVersion"
+    annotationProcessor "com.jakewharton:butterknife-compiler:$butterKnifeVersion"
+
+    // Glide as image loading and caching
+    implementation 'com.github.bumptech.glide:glide:3.8.0'
 
     // Test
     testImplementation 'junit:junit:4.12'
