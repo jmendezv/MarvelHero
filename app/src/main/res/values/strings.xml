@@ -1,3 +1,39 @@
 <resources>
     <string name="app_name">MarvelHero</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Splash activity -->
+    <string name="candidate_name">Cristina Asensio</string>
+
+    <!-- Hero layout -->
+    <string name="detail_button">detail</string>
+    <string name="wiki_button">wiki</string>
+    <string name="comics_button">comics</string>
+    <string name="hero_name_hint">Thor</string>
+    <string name="hero_description_hint">Son of Odin, master of storms</string>
+    <string name="hero_image_content_description">hero image</string>
+
+    <!-- Error messages -->
+    <string name="link_not_available">Link not available</string>
+    <string name="no_data">Error trying to fetch hero data</string>
+
+    <!-- Comics Fragment -->
+    <string-array name="comics">
+        <item>comic 1</item>
+        <item>comic 2</item>
+        <item>comic 3</item>
+        <item>comic 4</item>
+        <item>comic 5</item>
+        <item>comic 6</item>
+        <item>comic 7</item>
+        <item>comic 8</item>
+        <item>comic 9</item>
+        <item>comic 10</item>
+    </string-array>
+
+    <!-- List Item -->
+    <string name="item_title_hint">Title</string>
+    <string name="item_description_hint">Description</string>
+
 </resources>
