@@ -56,6 +56,7 @@ dependencies {
 
     // Dagger to inject viewmodels. It will provide our retrofit and repo service dependencies
     implementation "com.google.dagger:dagger:$daggerVersion"
+    implementation 'com.android.support:support-v4:28.0.0'
     annotationProcessor "com.google.dagger:dagger-compiler:$daggerVersion"
 
     // Butterknife to make binding in our fragments and view holders easier

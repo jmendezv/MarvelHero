@@ -18,4 +18,22 @@
     <string name="link_not_available">Link not available</string>
     <string name="no_data">Error trying to fetch hero data</string>
 
+    <!-- Comics Fragment -->
+    <string-array name="comics">
+        <item>comic 1</item>
+        <item>comic 2</item>
+        <item>comic 3</item>
+        <item>comic 4</item>
+        <item>comic 5</item>
+        <item>comic 6</item>
+        <item>comic 7</item>
+        <item>comic 8</item>
+        <item>comic 9</item>
+        <item>comic 10</item>
+    </string-array>
+
+    <!-- List Item -->
+    <string name="item_title_hint">Title</string>
+    <string name="item_description_hint">Description</string>
+
 </resources>
