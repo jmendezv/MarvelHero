@@ -1,7 +1,9 @@
 <resources>
     <dimen name="margin_zero">0dp</dimen>
+    <dimen name="margin_five">5dp</dimen>
     <dimen name="margin_eight">8dp</dimen>
     <dimen name="margin_sixteen">16dp</dimen>
     <dimen name="hero_image_size">100dp</dimen>
+    <dimen name="tab_layout_elevation">16dp</dimen>
 
 </resources>
