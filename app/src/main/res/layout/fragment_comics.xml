@@ -5,9 +5,10 @@
     android:layout_height="match_parent"
     tools:context=".home.ComicsFragment">
 
-    <ListView
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/comics_recycler_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:entries="@array/comics"/>
+        android:entries="@array/comics" />
 
 </FrameLayout>
