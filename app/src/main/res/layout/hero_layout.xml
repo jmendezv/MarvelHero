@@ -7,7 +7,9 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/margin_eight">
+        android:layout_margin="@dimen/margin_eight"
+        android:background="@color/semiTransparent"
+        android:padding="@dimen/margin_five">
 
         <ImageView
             android:id="@+id/iv_hero_image"
@@ -33,13 +35,16 @@
             android:layout_below="@id/tv_hero_name"
             android:layout_marginStart="@dimen/margin_sixteen"
             android:layout_toEndOf="@id/iv_hero_image"
-            android:hint="@string/hero_description_hint" />
+            android:hint="@string/hero_description_hint"
+            android:maxLines="5" />
 
     </RelativeLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_five"
+        android:layout_marginEnd="@dimen/margin_five"
         android:orientation="horizontal">
 
         <Button
@@ -47,6 +52,7 @@
             android:layout_width="@dimen/margin_zero"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:background="@drawable/hero_button_selector"
             android:text="@string/detail_button"
             android:textAllCaps="true" />
 
@@ -54,7 +60,9 @@
             android:id="@+id/btn_wiki"
             android:layout_width="@dimen/margin_zero"
             android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_five"
             android:layout_weight="1"
+            android:background="@drawable/hero_button_selector"
             android:text="@string/wiki_button"
             android:textAllCaps="true" />
 
@@ -62,7 +70,9 @@
             android:id="@+id/btn_comics"
             android:layout_width="@dimen/margin_zero"
             android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_five"
             android:layout_weight="1"
+            android:background="@drawable/hero_button_selector"
             android:text="@string/comics_button"
             android:textAllCaps="true" />
 
