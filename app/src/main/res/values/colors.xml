@@ -2,5 +2,9 @@
 <resources>
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorAccent">#00BCD4</color>
+    <color name="hero_background">#303F9F</color>
+    <color name="semiTransparent">#CCFFFFFF</color>
+    <color name="hero_button">#FFFFFF</color>
+    <color name="light_primary_color">#C5CAE9</color>
 </resources>
