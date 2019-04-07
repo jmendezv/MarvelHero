@@ -70,7 +70,7 @@ public class HeroFragment extends Fragment {
     }
 
     private void observeViewModel() {
-        viewModel.getHero().observe(this, heroes -> {
+        viewModel.getHero().observe(getViewLifecycleOwner(), heroes -> {
             if (heroes != null) {
                 final Hero thor = heroes.get(0);
                 final List<Link> links = thor.getLinks();
