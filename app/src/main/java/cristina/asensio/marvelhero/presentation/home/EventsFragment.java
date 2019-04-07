@@ -1,4 +1,4 @@
-package cristina.asensio.marvelhero.home;
+package cristina.asensio.marvelhero.presentation.home;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;

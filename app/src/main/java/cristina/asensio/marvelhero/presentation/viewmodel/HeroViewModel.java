@@ -1,4 +1,4 @@
-package cristina.asensio.marvelhero.viewmodel;
+package cristina.asensio.marvelhero.presentation.viewmodel;
 
 import android.arch.lifecycle.LiveData;
 import android.arch.lifecycle.MutableLiveData;
@@ -9,8 +9,8 @@ import java.util.List;
 
 import javax.inject.Inject;
 
-import cristina.asensio.marvelhero.model.Hero;
-import cristina.asensio.marvelhero.network.HeroApi;
+import cristina.asensio.marvelhero.domain.model.Hero;
+import cristina.asensio.marvelhero.data.network.HeroApi;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;

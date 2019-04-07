@@ -1,4 +1,4 @@
-package cristina.asensio.marvelhero.manager;
+package cristina.asensio.marvelhero.domain.manager;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -6,8 +6,8 @@ import org.junit.Test;
 import java.util.Arrays;
 import java.util.List;
 
-import cristina.asensio.marvelhero.model.Link;
-import cristina.asensio.marvelhero.util.LinkType;
+import cristina.asensio.marvelhero.domain.model.Link;
+import cristina.asensio.marvelhero.domain.util.LinkType;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.*;

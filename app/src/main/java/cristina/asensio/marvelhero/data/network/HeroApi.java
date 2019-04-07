@@ -1,4 +1,4 @@
-package cristina.asensio.marvelhero.network;
+package cristina.asensio.marvelhero.data.network;
 
 
 import com.serjltt.moshi.adapters.Wrapped;

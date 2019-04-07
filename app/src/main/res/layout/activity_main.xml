@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".home.MainActivity"
+    tools:context=".presentation.home.MainActivity"
     android:background="@color/hero_background">
 
     <include layout="@layout/content_main" />

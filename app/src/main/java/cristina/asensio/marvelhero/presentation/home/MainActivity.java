@@ -1,4 +1,4 @@
-package cristina.asensio.marvelhero.home;
+package cristina.asensio.marvelhero.presentation.home;
 
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
@@ -9,7 +9,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
 import cristina.asensio.marvelhero.R;
-import cristina.asensio.marvelhero.adapter.TabsAdapter;
+import cristina.asensio.marvelhero.presentation.adapter.TabsAdapter;
 
 public class MainActivity extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package cristina.asensio.marvelhero.home;
+package cristina.asensio.marvelhero.presentation.home;
 
 import android.content.Intent;
 import android.os.Handler;

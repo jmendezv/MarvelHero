@@ -1,10 +1,10 @@
-package cristina.asensio.marvelhero.network;
+package cristina.asensio.marvelhero.data.network;
 
 import com.serjltt.moshi.adapters.Wrapped;
 
 import java.util.List;
 
-import cristina.asensio.marvelhero.model.Hero;
+import cristina.asensio.marvelhero.domain.model.Hero;
 import retrofit2.Call;
 import retrofit2.http.GET;
 

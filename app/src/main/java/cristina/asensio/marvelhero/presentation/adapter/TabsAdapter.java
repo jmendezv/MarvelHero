@@ -1,12 +1,12 @@
-package cristina.asensio.marvelhero.adapter;
+package cristina.asensio.marvelhero.presentation.adapter;
 
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-import cristina.asensio.marvelhero.home.ComicsFragment;
-import cristina.asensio.marvelhero.home.EventsFragment;
+import cristina.asensio.marvelhero.presentation.home.ComicsFragment;
+import cristina.asensio.marvelhero.presentation.home.EventsFragment;
 
 public class TabsAdapter extends FragmentPagerAdapter {
 

@@ -1,4 +1,4 @@
-package cristina.asensio.marvelhero.adapter;
+package cristina.asensio.marvelhero.presentation.adapter;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -17,8 +17,8 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import cristina.asensio.marvelhero.R;
-import cristina.asensio.marvelhero.model.Comic;
-import cristina.asensio.marvelhero.model.Thumbnail;
+import cristina.asensio.marvelhero.domain.model.Comic;
+import cristina.asensio.marvelhero.domain.model.Thumbnail;
 
 public class ComicsAdapter extends RecyclerView.Adapter<ComicsAdapter.ViewHolder> {
 

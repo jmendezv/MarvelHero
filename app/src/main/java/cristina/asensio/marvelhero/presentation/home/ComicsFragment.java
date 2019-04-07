@@ -1,4 +1,4 @@
-package cristina.asensio.marvelhero.home;
+package cristina.asensio.marvelhero.presentation.home;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -14,7 +14,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
 import cristina.asensio.marvelhero.R;
-import cristina.asensio.marvelhero.adapter.ComicsAdapter;
+import cristina.asensio.marvelhero.presentation.adapter.ComicsAdapter;
 
 public class ComicsFragment extends Fragment {
 

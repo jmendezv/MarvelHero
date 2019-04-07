@@ -1,4 +1,4 @@
-package cristina.asensio.marvelhero.model;
+package cristina.asensio.marvelhero.domain.model;
 
 import com.squareup.moshi.Json;
 

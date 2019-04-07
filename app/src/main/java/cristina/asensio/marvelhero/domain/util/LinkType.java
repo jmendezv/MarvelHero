@@ -1,4 +1,4 @@
-package cristina.asensio.marvelhero.util;
+package cristina.asensio.marvelhero.domain.util;
 
 /**
  * The different type of links that hero can have in data -> results -> urls

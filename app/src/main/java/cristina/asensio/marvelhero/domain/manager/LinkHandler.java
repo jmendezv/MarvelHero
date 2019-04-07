@@ -1,11 +1,11 @@
-package cristina.asensio.marvelhero.manager;
+package cristina.asensio.marvelhero.domain.manager;
 
 import android.support.annotation.Nullable;
 
 import java.util.List;
 
-import cristina.asensio.marvelhero.model.Link;
-import cristina.asensio.marvelhero.util.LinkType;
+import cristina.asensio.marvelhero.domain.model.Link;
+import cristina.asensio.marvelhero.domain.util.LinkType;
 
 public class LinkHandler {
 

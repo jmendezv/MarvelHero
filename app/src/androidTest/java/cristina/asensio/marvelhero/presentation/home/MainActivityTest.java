@@ -1,4 +1,4 @@
-package cristina.asensio.marvelhero.home;
+package cristina.asensio.marvelhero.presentation.home;
 
 import org.junit.Rule;
 import org.junit.Test;

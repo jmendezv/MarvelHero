@@ -1,4 +1,4 @@
-package cristina.asensio.marvelhero.home;
+package cristina.asensio.marvelhero.presentation.home;
 
 import android.arch.lifecycle.ViewModelProviders;
 import android.content.Intent;
@@ -24,12 +24,12 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
 import cristina.asensio.marvelhero.R;
-import cristina.asensio.marvelhero.manager.LinkHandler;
-import cristina.asensio.marvelhero.model.Hero;
-import cristina.asensio.marvelhero.model.Link;
-import cristina.asensio.marvelhero.model.Thumbnail;
-import cristina.asensio.marvelhero.util.LinkType;
-import cristina.asensio.marvelhero.viewmodel.HeroViewModel;
+import cristina.asensio.marvelhero.domain.manager.LinkHandler;
+import cristina.asensio.marvelhero.domain.model.Hero;
+import cristina.asensio.marvelhero.domain.model.Link;
+import cristina.asensio.marvelhero.domain.model.Thumbnail;
+import cristina.asensio.marvelhero.domain.util.LinkType;
+import cristina.asensio.marvelhero.presentation.viewmodel.HeroViewModel;
 
 public class HeroFragment extends Fragment {
 
